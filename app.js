@@ -65,3 +65,7 @@ cells.forEach((cell, number) => {
     }
   });
 });
+
+document
+  .querySelector("button")
+  .addEventListener("click", () => location.reload());
