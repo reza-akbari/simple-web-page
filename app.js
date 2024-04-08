@@ -55,7 +55,7 @@ const playComputer = () => {
 
 cells.forEach((cell, number) => {
   cell.addEventListener("click", () => {
-    if (!isUserTurn || gameState[number]) {
+    if (isFinished || !isUserTurn || gameState[number]) {
       return;
     }
     isUserTurn = false;
