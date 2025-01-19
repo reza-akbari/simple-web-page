@@ -50,3 +50,9 @@ button {
 button:hover {
   background-color: #34435f;
 }
+
+a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: auto;
+}
